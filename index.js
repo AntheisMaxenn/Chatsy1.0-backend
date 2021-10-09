@@ -7,7 +7,7 @@ const { Server } = require("socket.io");
 const io = new Server(server, {
     // TODO: Update to hosting address of frontend.
     cors: {
-        origin: 'http://localhost:4200',
+        origin: 'https://chatsy-65da0.web.app',
     }
 });
 
@@ -87,8 +87,8 @@ io.on('connection', (socket) => {
 
 
 
+const PORT = process.env.PORT || 8080;
 
-
-server.listen(3000, () => {
+server.listen(PORT, () => {
     console.log(`Server is listening on port 3000`)
 });
