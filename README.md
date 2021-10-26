@@ -4,7 +4,7 @@ Realtime chat application where users can make an alias/username to join, then a
 
 ## Frontend
 
-This project was generated with [Backend](https://github.com/AntheisMaxenn/Chatsy1.0-frontend)
+Find the Frontend [Here](https://github.com/AntheisMaxenn/Chatsy1.0-frontend)
 
 ## Site
 
